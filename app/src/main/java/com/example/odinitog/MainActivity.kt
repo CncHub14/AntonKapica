@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         fun nextAc(view: View){
-//            val textview = findViewById<TextView>(R.id.textView3)
+
             val nextActv = Intent(this, SecondMainActivity2::class.java)
 
     startActivity(nextActv)
